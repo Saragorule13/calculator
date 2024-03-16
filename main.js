@@ -8,8 +8,8 @@ Array.from(buttons).forEach((button)=>{
         } else if(e.target.innerHTML == "C"){
             string = string.slice(0, string.length - 1);
             document.querySelector('input').value = string;
-        } else if(e.target.innerHTML == "()"){
-            string = 
+        } else if(e.target.innerHTML == "AC"){
+            string = "";
             document.querySelector('input').value = string;
         }
         
